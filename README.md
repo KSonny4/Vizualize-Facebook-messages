@@ -3,3 +3,6 @@ Vizualize frequent words from your Facebook messages using wordcloud where the m
 
 Simply change the path to your json file with messages in variable "json_file" and run the algorithm.
 This implementation is dealing specifically with badly encoded JSON provided by Facebook. The original data is UTF-8 encoded but was decoded as Latin-1 instead. So other languages can have similiar problem.
+
+This is the result (1 surname and 2 offensive words were deleted) of our communication with my CVUT FEL classmates. This result was made from over 250 K messages.
+![Visualization of our FB chat](https://raw.githubusercontent.com/KSonny4/Vizualize-Facebook-messages/master/cloud_censored.png)
