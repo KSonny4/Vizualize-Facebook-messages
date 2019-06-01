@@ -1,0 +1,10 @@
+{ 
+	"messages": [
+	    {
+	      "sender_name": "Petr Kubelka",
+	      "timestamp_ms": 1464725355998,
+	      "content": "Demo message replace this message with your own facebook messages",
+	      "type": "Generic"
+	    }
+	]
+}
