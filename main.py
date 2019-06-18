@@ -72,7 +72,7 @@ def show_wordcloud(data, title=None):
     plt.axis('off')
     if title:
         fig.suptitle(title, fontsize=20)
-        fig.subplots_adjust(top=2.3)
+        fig.subplots_adjust(top=1.0)
 
     plt.imshow(wordcloud)
     plt.show()
